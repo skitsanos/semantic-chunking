@@ -1,0 +1,57 @@
+The Light Weight Payload Delivery System (LWPD) will consist of a fleet of drones, each equipped with sensors to
+detect obstacles in their path, communication modules to communicate with other drones in the squad and a payload
+delivery mechanism. The drones will be able to navigate through flooded areas using GPS data and will communicate
+with a gateway drone or coordinator drone, which will provide them with information about the location of the
+payload and any obstacles in their path.
+
+The LWPD system will be designed to operate autonomously, but it will also have a human operator who can monitor
+the drones' progress and intervene if necessary. The drones will be equipped with sensors such as an ultrasonic
+sensor that detects objects in their path, a camera for obstacle avoidance, and GPS to determine their location.
+
+The communication modules used by the drones will be ESP32 dual-core modules running FreeRTOS and ESP-NOW
+protocol. The ESP-NOW protocol will allow the drones to communicate with each other in real-time, while FreeRTOS
+will provide a high-level operating system for the drone.
+
+The payload delivery mechanism will consist of a small container that can hold up to 1kg of supplies such as food,
+medical equipment, and water purification tablets. The container will be dropped by the drone using a parachute or
+other delivery method depending on the situation.
+
+To ensure compliance with local and international laws regarding drone flights, the LWPD system will have a
+built-in safety mechanism that automatically disengages the payload delivery mechanism if it senses an obstacle in
+its path. The drones will also be equipped with a return-to-home feature that automatically returns the drone to
+its takeoff point if communication is lost or the battery runs low.
+
+Overall, the LWPD system is designed to deliver humanitarian aid quickly and efficiently in flooded areas while
+complying with local and international laws regarding drone flights.
+
+>>> We were requested to provide project documentation. Let's outline the sections of it and later we will detail each s
+... eparately.
+The project document for LWPD system should include the following sections:
+
+1. Project Overview - This section provides an overview of the project, its purpose, goals, and objectives. It
+also outlines the need for the project in flooded areas.
+
+2. Design Approach - This section describes the design approach used to develop the LWPD system, including the
+choice of drones, sensors, communication modules, payload delivery mechanism, safety mechanisms, and
+return-to-home feature. It also outlines the design constraints that were taken into account during development.
+
+3. Prototyping - This section describes the prototype development process, including the selection of drone
+platforms, sensor integration, communication module installation, payload delivery mechanism testing, and safety
+mechanism integration.
+
+4. Test Plan - This section details the testing strategy for the LWPD system, including pre-flight tests, in-air
+tests, post-flight tests, and performance benchmarking. It also outlines the test procedures to be followed during
+development and deployment.
+
+5. Implementation Strategy - This section describes the implementation strategy for the LWPD system, including
+software architecture design, code development, quality assurance testing, and version control.
+
+6. Maintenance Plan - This section outlines the maintenance plan for the LWPD system, including system updates,
+upgrades, bug fixes, and security patches. It also outlines the process for handling maintenance requests and
+incidents.
+
+7. Security Considerations - This section describes the security considerations for the LWPD system, including
+data encryption, access control, vulnerability assessment, and incident response plan.
+
+8. References - This section provides a list of references used in developing the project document, such as
+technical specifications, software development tools, and safety regulations.
